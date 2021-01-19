@@ -54,7 +54,7 @@ app.post("/",(req,res)=>{
 
      cityName = req.body.placeInput;
     const endPoint = "https://api.openweathermap.org/data/2.5/weather?";
-    const apiKey = "955fae8172efd3223cd35431a94808ad";
+    const apiKey = ""; // enter your own api key from openweathermap
     const unit = "metric";
     const url = endPoint + "q=" + cityName + "&units=" + unit + "&appid=" + apiKey ; 
 
