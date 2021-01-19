@@ -1,0 +1,19 @@
+
+<%- include("header.ejs") -%>
+
+
+<header class="title">
+    <h1>Weather Me</h1>
+</header>
+<main>
+    <div class="main-section">
+        <form action="/" method="POST" id="myForm"  > 
+            <input type="text" placeholder="Enter a city name" name="placeInput" id="placeInput" >
+            <br>
+            <button type="submit" class="btn" id="subBtn" >Weather Me</button>
+        </form>
+    </div>
+</main>
+
+
+<%- include("footer.ejs") -%>

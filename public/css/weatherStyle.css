@@ -1,0 +1,38 @@
+.weather-result h1{
+
+    font-size: 3.0rem;
+    color:rgb(240, 239, 239) ;
+}
+
+.weather-result p{
+    font-size: 2rem;
+    color:rgb(240, 239, 239) ;
+}
+
+.details{
+    background-color: rgba(32, 32, 32, 0.8);
+    border-radius: 25px;
+    animation: 2s ease-out 0s 1 slideIn;
+}
+
+#iconimg{
+    position: absolute;
+    top : 30%;
+    left: 10%;
+    width: 8%;
+    height: auto;
+}
+
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  #rtnBtn{
+    margin-top: 0;
+  }

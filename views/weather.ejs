@@ -1,0 +1,19 @@
+<%- include("header.ejs") -%>
+<link rel="stylesheet" href="css/weatherStyle.css">
+<div class="weather-result">
+    <h1>Current weather in <%= cityName %> </h1>
+    <hr>
+    <div class="details">
+        <p>Weather description : <%= weatherDesc %></p>
+        <p>Tempeture : <%= cityTemp %> C.</p>
+        <p>Pressure : <%= cityPre %> kPa.</p>
+        <p>Humidity : <%= cityHum %> %.</p>
+        <p>Wind speed : <%= cityWind %> km/h.</p>
+    </div>
+    <form method="POST" action="/"> 
+    <button class="btn" type="submit" id="rtnBtn" >Return</button>
+    </form>
+</div>
+
+
+<%- include("footer.ejs") -%>
